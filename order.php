@@ -12,7 +12,7 @@
     <h2>Order Pizza</h2>
     <form action="order.php" method="post">
         <label>How many burgers?</label><br>
-        <input type="text" name="quantity"><br>
+        <input type="text" name="quantity" required><br>
         <input type="submit" value="Order">
     </form>
     <?php

@@ -13,11 +13,11 @@
     <h2>Register</h2>
     <form action="register.php" method="post">
         <label>Username:</label><br>
-        <input type="text" name="username"><br>
+        <input type="text" name="username" required><br>
         <label>Password:</label><br>
-        <input type="password" name="password"><br>
+        <input type="password" name="password" required><br>
         <input type="submit" value="Register">
-        <button onclick= window.location.href=\'login.php\'>sign_in</button>
+        <button type="button" onclick= "window.location.href='login.php'">sign_in</button>
 
     </form>
     <?php

@@ -17,7 +17,7 @@
     </form>
     <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            $price = 8.50;
+            $price = 168;
             $quantity = $_POST["quantity"];
             $total = $quantity * $price;
             echo "<p>You ordered $quantity burger(s).</p>";

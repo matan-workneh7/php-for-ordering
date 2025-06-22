@@ -1,4 +1,4 @@
-T# Burger Order Project using PHP and MySQL
+# Burger-Ordering-App Project using PHP and MySQL
 
 ## What this project does
 
@@ -25,17 +25,19 @@ T# Burger Order Project using PHP and MySQL
      );
      ```
 
-4. **Put the project files** in your XAMPP `htdocs` folder.
+4. **Put the project files** in your XAMPP `htdocs` folder.(optional for linux users if it doesnt work by default!)
 
 ---
 
 ## How to use
 
 - **Register:**  
-  Go to `signup.php` (or `register.php` if you kept that name).  
+  Go to `register.php` 
   Fill in a username and password.  
   You can’t register with empty fields.
 
+![Screenshot From 2025-06-22 21-32-20](https://github.com/user-attachments/assets/2b0bb83e-a7a7-4fc1-8f37-a55b9e4c6db6)
+![Screenshot From 2025-06-22 21-32-37](https://github.com/user-attachments/assets/483084bf-b32d-4758-a0dd-b85c8afa32c7)
 
 - **Login:**  
   Go to `login.php`.  
@@ -43,10 +45,19 @@ T# Burger Order Project using PHP and MySQL
   If you log in successfully, you’ll be sent to the order page.  
   If login fails, you’ll see a message and a button to register.
 
+![Screenshot From 2025-06-22 21-32-43](https://github.com/user-attachments/assets/04ab0a9e-8991-47cc-bd60-df7df4fa6ab3)
+![Screenshot From 2025-06-22 21-32-48](https://github.com/user-attachments/assets/d695858e-1406-46d0-8410-e8dc2be8098f)
+
+
 - **Order:**  
   Go to `order.php` (or you’ll be sent there after login).  
   Enter how many burgers you want.  
   It will show you the total price.
+
+![Screenshot From 2025-06-22 21-33-03](https://github.com/user-attachments/assets/924d8154-6cfe-4e94-be63-7c7f33b990d6)
+![Screenshot From 2025-06-22 21-33-08](https://github.com/user-attachments/assets/168fd0f6-486a-4ee1-92a1-9c1d77a0f9f0)
+![Screenshot From 2025-06-22 21-33-18](https://github.com/user-attachments/assets/9377850a-d4e3-4b06-9685-109ca0e01377)
+![Screenshot From 2025-06-22 21-33-26](https://github.com/user-attachments/assets/76966c9c-a65a-4b45-b774-aaf26141bc30)
 
 ---
 
@@ -63,7 +74,7 @@ T# Burger Order Project using PHP and MySQL
 
 ## File List
 
-- `signup.php` or `register.php` — user registration
+- `register.php` — user registration
 - `login.php` — user login
 - `order.php` — order burgers
 
